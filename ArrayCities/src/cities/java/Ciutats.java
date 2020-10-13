@@ -114,6 +114,7 @@ public class Ciutats {
 
         // Mostreu per consola els nous arrays amb els noms invertits
         // (Ex: Barcelona - anolecraB
+        // recursos Curso Java. Colecciones II. Vídeo 180
         for (int i = 0; i < arrayCiutats.size(); i++) {
             System.out.println(arrayCiutats.get(i) + " - " + citiesReversed.get(i));
         }
