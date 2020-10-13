@@ -52,7 +52,7 @@ public class Ciutats {
         Scanner sc = new Scanner(System.in);
 
         do {
-            System.out.println("Enter the names of 6 cities currently in memory (" + arrayCiutats.size() + "/6): ");
+            System.out.println("Introdueix els noms de les 6 ciutats per teclat (" + arrayCiutats.size() + "/6): ");
             // Introdueix els següents noms de ciutats (Barcelona, Madrid, Valencia, Malaga,
             // Cadis, Santander) per teclat.
             arrayCiutats.add(sc.nextLine());
@@ -75,7 +75,7 @@ public class Ciutats {
 
     private static void showCities(List<String> arrayCiutats) {
 
-        System.out.println("Showing the cities entered by user: ");
+        System.out.println("Mostrar per consola el nom de les ciutats: ");
         System.out.println("************************************");
         for (String city : arrayCiutats) {
             System.out.println(city);
