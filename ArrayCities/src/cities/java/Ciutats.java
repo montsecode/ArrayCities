@@ -36,6 +36,12 @@ public class Ciutats {
         executaFase4();
 
     }
+    
+    // Recursos: 
+    //https://www.tutorialspoint.com/can-we-have-a-private-method-or-private-static-method-in-an-interface-in-java-9
+    //https://www.adictosaltrabajo.com/2015/09/17/la-directiva-static-en-java/
+    //https://javadesdecero.es/basico/puntos-interesantes-null-java/
+    //
 
     private static void executaFase1() {
         // Demana per consola que s’introdueixin els noms.
