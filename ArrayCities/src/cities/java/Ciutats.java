@@ -46,6 +46,7 @@ public class Ciutats {
     //https://www.adictosaltrabajo.com/2015/09/17/la-directiva-static-en-java/
     //https://javadesdecero.es/basico/puntos-interesantes-null-java/
     //https://examples.javacodegeeks.com/core-java/util/collections/java-util-collections-example/
+    // Videos píldoras informáticas: Curso Java. Colecciones XI Mapas. Vídeo 189
 
     private static void Fase1() {
         // Demana per consola que s’introdueixin els noms.
