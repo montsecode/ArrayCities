@@ -30,20 +30,24 @@ public class Ciutats {
 
     public static void main(String[] args) {
 
-        executaFase1();
-        executaFase2();
-        executaFase3();
-        executaFase4();
+        Fase1();
+        Fase2();
+        Fase3();
+        Fase4();
 
     }
     
     // Recursos: 
+    //https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=596:interface-collection-api-java-add-remove-size-ejemplo-arraylist-diferencia-con-list-streams-cu00917c&catid=58&Itemid=180
+    //https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=603:interface-list-del-api-java-clases-arraylist-linkedlist-stack-vector-ejemplo-con-arraylist-cu00920c&catid=58&Itemid=180
+    //https://aprenderaprogramar.es/index.php?option=com_content&view=article&id=631:clase-arraylist-del-api-java-metodos-add-size-etc-concepto-de-clase-generica-o-parametrizada-cu00665b&catid=68:curso-aprender-programacion-java-desde-cero&Itemid=188
+    
     //https://www.tutorialspoint.com/can-we-have-a-private-method-or-private-static-method-in-an-interface-in-java-9
     //https://www.adictosaltrabajo.com/2015/09/17/la-directiva-static-en-java/
     //https://javadesdecero.es/basico/puntos-interesantes-null-java/
     //https://examples.javacodegeeks.com/core-java/util/collections/java-util-collections-example/
 
-    private static void executaFase1() {
+    private static void Fase1() {
         // Demana per consola que s’introdueixin els noms.
         Scanner sc = new Scanner(System.in);
 
@@ -59,7 +63,7 @@ public class Ciutats {
         showCities(arrayCiutats);
     }
 
-    private static void executaFase2() {
+    private static void Fase2() {
         // Un cop tenim els noms de les ciutats guardats en variables haurem de pasar
         // l’informacio a un array (arrayCiutats)
 
@@ -80,7 +84,7 @@ public class Ciutats {
 
     }
 
-    private static void executaFase3() {
+    private static void Fase3() {
     	//Cambieu les vocals “a” dels noms de les ciutats per el numero 4 i guardeu els noms modificats en un nou
     	//array(ArrayCiutatsModificades)
     	//Mostreu per consola l’array modificat i ordenat per ordre alfabetic.
@@ -91,7 +95,7 @@ public class Ciutats {
         showCities(arrayCiutatsModificades);
     }
 
-    private static void executaFase4() {
+    private static void Fase4() {
 
         // Creeu un nou array per cada una de les ciutats que tenim. La mida dels nous
         // arrays sera la llargada de cada string ( string nomCiutat.Length). (0,5 punts
